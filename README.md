@@ -66,9 +66,11 @@ sudo usermod -aG input $USER
 ```
 
 ## Uninstall
+```bash
 sudo systemctl disable --now rapoo-m50-sidebuttons.service
 sudo rm -f /etc/systemd/system/rapoo-m50-sidebuttons.service
 sudo rm -f /usr/local/bin/rapoo-m50-sidebuttons
+```
 
 ## Troubleshooting
 
