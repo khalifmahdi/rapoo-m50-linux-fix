@@ -1,0 +1,14 @@
+[Unit]
+Description=Rapoo M50 side buttons mapper (Back/Forward)
+After=multi-user.target
+
+[Service]
+Type=simple
+# Change to altarrow if needed:
+# Environment=RAPOO_MODE=altarrow
+ExecStart=/usr/bin/env python3 /usr/local/bin/rapoo-m50-sidebuttons
+Restart=on-failure
+User=root
+
+[Install]
+WantedBy=multi-user.target
