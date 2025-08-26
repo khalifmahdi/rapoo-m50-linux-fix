@@ -20,6 +20,8 @@
 
 ## Install (TL;DR)
 ```bash
+git clone https://github.com/khalifmahdi/rapoo-m50-linux-fix.git
+cd rapoo-m50-linux-fix
 chmod +x ./install.sh
 sudo ./install.sh
 ```
